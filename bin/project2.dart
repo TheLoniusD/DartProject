@@ -1,5 +1,6 @@
-import 'package:project2/project2.dart' as project2;
+import 'package:project2/quoteservice.dart';
 
 void main(List<String> arguments) {
-  print('Hello world: ${project2.calculate()}!');
+  QuoteService myQuote = QuoteService();
+  myQuote.getCit();
 }
